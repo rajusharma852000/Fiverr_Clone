@@ -14,7 +14,7 @@ const app = express();
 const port = process.env.PORT;
 
 app.use(cors({
-    origin: [process.env.PUBLIC_URL],
+    origin: https://fiverr-clone-kjva.vercel.app,
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     credentials: true,
 }));
