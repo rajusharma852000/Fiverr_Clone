@@ -1,5 +1,5 @@
 export const HOST = https://fiverr-clone-backend-six.vercel.app;
-export const API_URL = `${HOST}/api`;
+export const API_URL = `${HOST}/api`; 
 
 export const AUTH_ROUTES = `${API_URL}/auth`;
 export const GIG_ROUTES = `${API_URL}/gigs`;
